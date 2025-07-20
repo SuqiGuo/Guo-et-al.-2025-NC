@@ -18,3 +18,5 @@ Contains three subfolders:
     BGC: We adapt the method used for local BGP effects to address the challenge that nonlocal BGC effects—which are influenced by land cover—differ between intact grid cells and those affected by LULUCF. As these           differences hinder direct interpolation, we focus on individual land-use tiles (LUTs) within each grid cell. LUTs represent subgrid land units in Earth system models, each defined by a unique combination            of plant functional types (PFTs) and land-use categories (e.g., cropland, pasture, primary or secondary vegetation, or urban). We use subgrid-level data on carbon pool changes for each LUT. Nonlocal BGC             effects are interpolated from intact to LULUCF grid cells for each LUT, then scaled by their fractional cover.
 
  Reference: Winckler, J., Reick, C. H. & Pongratz, J. Robust identification of local biogeophysical effects of land-cover change in a global climate model. J. Clim. 30, 1159–1176 (2017).
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16193304.svg)](https://doi.org/10.5281/zenodo.16193304)
